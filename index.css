@@ -1,0 +1,103 @@
+:root {
+    --primary-color: #10d84c;
+    --secondary-color: #6bfaa2;
+    --accent-color: #0f5e63;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--secondary-color);
+    color: blue;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: blue;
+  }
+  
+  h2 {
+    color: blue;
+  }
+  
+  .reservationform,
+  .reservation-list {
+    background-color: var(--secondary-color);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid var(--accent-color);
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group:last-child {
+    margin-right: 0;
+  }
+  .form-row button {
+    background-color: var(--primary-color);
+    color: blue;
+  
+    border: none;
+  
+    padding: 10px 15px;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+    margin-left: auto;
+  
+    display: block;
+  }
+  
+  /* Hover effect for the button */
+  .form-row button:hover {
+    background-color: var(--primary-color);
+  }
